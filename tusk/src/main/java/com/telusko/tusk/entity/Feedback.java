@@ -4,9 +4,6 @@ package com.telusko.tusk.entity;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
-
 @Entity
 public class Feedback 
 {
@@ -16,17 +13,11 @@ public class Feedback
 	private String reg;
 	private String code;
 	private int rating;
+	private String msg;
 
 	public Feedback(){}
 	
-	public Feedback(String name, String email, String reg, String code, int rating) {
-		super();
-		this.name = name;
-		this.email = email;
-		this.reg = reg;
-		this.code = code;
-		this.rating = rating;
-	}
+	
 	public String getName() {
 		return name;
 	}
@@ -57,6 +48,18 @@ public class Feedback
 	public void setRating(int rating) {
 		this.rating = rating;
 	}
+	
+	
+	public String getMsg() {
+		return msg;
+	}
+
+
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+
+
 	@Override
 	public String toString() {
 		return "Feedback [name=" + name + ", email=" + email + ", reg=" + reg + ", code=" + code + ", rating=" + rating

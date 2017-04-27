@@ -324,11 +324,15 @@ div.error {
 
               <div class="row">
                 <div class="input-field col s12">
-                  <select id="reg" name="reg" class="validate" data-error="#e3" required>    
+                 <!--  <select id="reg" name="reg" class="validate" data-error="#e3" required>    
                       <option value="1">Website</option> 
                       <option value="2">Mr. Navin Reddy</option>
                       <option value="3">Online Course</option>
-                  </select>
+                  </select> -->
+                  
+                   <input id="reg" name="reg" title="Two or more characters" type="text" class="validate" data-error="#e1" required>
+                  <label for="name">Regarding</label>
+                  
                   <div id="e3"></div>
                 </div>
               </div>
