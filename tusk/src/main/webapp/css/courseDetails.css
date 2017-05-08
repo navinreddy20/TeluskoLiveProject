@@ -1,0 +1,315 @@
+    @import url('https://fonts.googleapis.com/css?family=Crete+Round:400i|Patua+One|Poiret+One|Roboto+Slab');
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+    @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+    @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand|Ubuntu+Condensed');
+    body {
+        /* font-family: 'Comfortaa', cursive;
+    font-family: 'Ubuntu Condensed', sans-serif;*/
+        /*font-family: 'Josefin Sans', sans-serif;*/
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15pt;
+        /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+    }
+    
+    .box {
+       border: 3px solid #76bb40;
+    border-radius: 10px;
+    padding: 5px;
+     margin-bottom: 4px;
+        }
+    
+    .box2 {
+        border: 3px solid #76bb40;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 6px;
+        padding: 27px;
+    }
+    
+    .box h4 {
+        background: #76bb40;
+        padding: 4px;
+        /*s*/
+        border-radius: 4px;
+        padding: 25px;
+        font-weight: bolder;
+        color: #dff1d2;
+    }
+    
+    .box h3 {
+        text-align: center;
+    }
+    
+    .jumbotron {
+        /*background-color: rgba(20, 197, 20, 0.61);*/
+        /* color: white;*/
+        font-weight: bold;
+        border-bottom: 6px solid #76bb40;
+        height: 233px;
+        padding-top: 0px;
+    }
+    
+    .jumbotron h1,
+    h2 {
+        text-align: center;
+    }
+    
+    .courseLabel {}
+    
+    .courseLabel h3 {
+        font-size: xx-large;
+    }
+    
+    .list-group-item {
+        font-weight: bold;
+    }
+    
+    .myHead {
+        background-color: #76bb40;
+        margin-bottom: 10px;
+        color: white;
+    }
+    
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:focus,
+    .nav-tabs>li.active>a:hover {
+        color: #fff;
+        cursor: default;
+        background-color: #76bb40;
+        border: 1px solid #ddd;
+        border-bottom-color: transparent;
+    }
+    
+    .lb {
+        background-color: #76bb40;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .corejavaab {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .nav-tabs {
+        border-bottom: 7px solid #76bb40;
+    }
+    
+    .table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        font-weight: bolder;
+        font-size: large;
+    }
+    
+    .tab-content>.tab-pane {
+        /* display: none;*/
+        font-size: medium;
+        text-align: justify;
+    }
+    /*==========  Mobile First Method  ==========*/
+    /* Custom, iPhone Retina */
+    
+    @media only screen and (min-width: 320px) {
+        body {
+            font-size: 7pt;
+        }
+        .teluskoLogo {
+            width: 145px;
+        }
+        .jumbotron h1,
+        h2 {}
+        .courseLabel h3 {
+            font-size: medium;
+        }
+        .nav-tabs>li.active>a,
+        .nav-tabs>li.active>a:focus,
+        .nav-tabs>li.active>a:hover {
+            color: #fff;
+            cursor: default;
+            background-color: #76bb40;
+            border: 1px solid #ddd;
+            border-bottom-color: transparent;
+            font-size: medium;
+        }
+        .nav-tabs>li>a {
+            margin-right: 2px;
+            line-height: 1.42857143;
+            border: 1px solid transparent;
+            border-radius: 4px 4px 0 0;
+            font-size: medium;
+        }
+        .table {
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 20px;
+            font-weight: bolder;
+            font-size: large;
+            font-size: medium;
+        }
+        .list-group-item {
+            font-size: medium;
+            font-weight: bold;
+        }
+        .tab-pane li {
+            font-size: medium;
+        }
+        .tab-content>.tab-pane {
+            /*    display: none;*/
+            font-size: medium;
+            text-align: justify;
+        }
+        .lb {
+            background-color: #76bb40;
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            font-size: medium;
+        }
+        .teluskoLogo {
+            width: 145px;
+            margin-left: 100;
+        }
+    }
+    /* Extra Small Devices, Phones */
+    
+    @media only screen and (min-width: 480px) {
+        body {
+            font-size: 7pt;
+        }
+        .teluskoLogo {
+            width: 145px;
+        }
+        .courseLabel h3 {
+            font-size: medium;
+        }
+        .nav-tabs>li.active>a,
+        .nav-tabs>li.active>a:focus,
+        .nav-tabs>li.active>a:hover {
+            color: #fff;
+            cursor: default;
+            background-color: #76bb40;
+            border: 1px solid #ddd;
+            border-bottom-color: transparent;
+            font-size: medium;
+        }
+        .nav-tabs>li>a {
+            margin-right: 2px;
+            line-height: 1.42857143;
+            border: 1px solid transparent;
+            border-radius: 4px 4px 0 0;
+            font-size: medium;
+        }
+        .table {
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 20px;
+            font-weight: bolder;
+            font-size: large;
+            font-size: medium;
+        }
+        .list-group-item {
+            font-size: medium;
+            font-weight: bold;
+        }
+        .tab-pane li {
+            font-size: medium;
+        }
+        .tab-content>.tab-pane {
+            /* display: none;*/
+            font-size: medium;
+            text-align: justify;
+        }
+        .lb {
+            background-color: #76bb40;
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            font-size: medium;
+        }
+    }
+    /* Small Devices, Tablets */
+    
+    @media only screen and (min-width: 768px) {
+        body {
+            font-size: 7pt;
+        }
+        .teluskoLogo {
+            width: 145px;
+        }
+        .courseLabel h3 {
+            font-size: medium;
+        }
+        .nav-tabs>li.active>a,
+        .nav-tabs>li.active>a:focus,
+        .nav-tabs>li.active>a:hover {
+            color: #fff;
+            cursor: default;
+            background-color: #76bb40;
+            border: 1px solid #ddd;
+            border-bottom-color: transparent;
+            font-size: medium;
+        }
+        .nav-tabs>li>a {
+            margin-right: 2px;
+            line-height: 1.42857143;
+            border: 1px solid transparent;
+            border-radius: 4px 4px 0 0;
+            font-size: medium;
+        }
+        .table {
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 20px;
+            font-weight: bolder;
+            font-size: large;
+            font-size: medium;
+        }
+        .list-group-item {
+            font-size: medium;
+            font-weight: bold;
+        }
+        .tab-pane li {
+            font-size: medium;
+        }
+        .tab-content>.tab-pane {
+            /* display: none;*/
+            font-size: medium;
+            text-align: justify;
+        }
+        .lb {
+            background-color: #76bb40;
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            font-size: medium;
+        }
+    }
+    /* Medium Devices, Desktops */
+    
+    @media only screen and (min-width: 992px) {}
+    /* Large Devices, Wide Screens */
+    
+    @media only screen and (min-width: 1200px) {}
+    /*==========  Non-Mobile First Method  ==========*/
+    /* Large Devices, Wide Screens */
+    
+    @media only screen and (max-width: 1200px) {}
+    /* Medium Devices, Desktops */
+    
+    @media only screen and (max-width: 992px) {}
+    /* Small Devices, Tablets */
+    
+    @media only screen and (max-width: 768px) {}
+    /* Extra Small Devices, Phones */
+    
+    @media only screen and (max-width: 480px) {}
+    /* Custom, iPhone Retina */
+    
+    @media only screen and (max-width: 320px) {}
