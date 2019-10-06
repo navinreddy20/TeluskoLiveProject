@@ -57,7 +57,7 @@ public class IndexController
 	{
 		ModelAndView mv = new ModelAndView("question.jsp");
 		
-		return mv;
+		return mv;  //Returning ModelAndView Object
 	}
 	
 	
